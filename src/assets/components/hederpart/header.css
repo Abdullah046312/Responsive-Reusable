@@ -1,0 +1,58 @@
+.manu_bg{
+    background-color: #1C1E53;
+    
+}
+.manu_bg img{
+    width: 100%;
+}
+
+.ami a{
+    padding: 0px 20px !important;
+    color: #FFFF !important;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    transition: .5s;
+    transform: scale(1);
+
+}
+
+.ami a:hover{
+    background-color: #FFFF;
+    color: #2C2643 !important;
+   
+    border-radius: 20px;
+    transform: scale(1.2);
+    
+}
+
+
+@media (max-width: 320px) {
+    .ami a {
+        text-align: center;
+        
+        padding: 8px 10px !important; /* Further reduced padding */
+        font-size: 14px; /* Further reduced font size for very small screens */
+        border-radius: 10px; /* Further reduced border radius */
+    }
+
+    .ami a:hover {
+        border-radius: 10px; /* Keep the same border radius on hover */
+        
+        
+    }
+    .manu_bg img{
+        width: 80%;
+    }
+    
+}
+
+/* .mx-auto{
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    
+    gap: 20px;
+    
+} */

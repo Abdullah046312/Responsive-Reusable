@@ -1,0 +1,89 @@
+#footer{
+    padding: 120px 0px;
+    background-color: rgba(248, 165, 76, 0.507);
+    margin-top: 100px;
+}
+.twenty_one img{
+    width: 30%;
+}
+.twenty_one p{
+    font-size: 18px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    color: #29313D;
+    margin-top: 20px;
+}
+
+.twenty_two h4{
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #29313D;
+    padding-bottom: 20px;
+}
+
+.twenty_two h5{
+    font-size: 18px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    color: #29313D;
+    margin-top: 20px;
+}
+
+.twenty_three{
+    margin-top: 60px;
+}
+
+
+.twenty_three h4{
+    font-size: 18px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    color: #29313D;
+}
+
+.twenty_three h2{
+    font-size: 18px;
+    font-family: "Calistoga", serif;
+    font-weight: 400;
+    color: #29313D;
+}
+
+
+@media (max-width: 320px) {
+    #footer {
+        padding: 40px 5px; /* Further reduced padding */
+        margin-top: 30px; /* Further reduced margin-top */
+    }
+
+    .twenty_one img{
+        width: 30%;
+    }
+
+    .twenty_one p {
+        font-size: 14px; /* Further reduced font size for paragraphs */
+        margin-top: 20px; /* Further reduced margin-top */
+    }
+
+    .twenty_two h4 {
+        font-size: 16px; /* Further reduced font size for headers */
+        padding-bottom: 10px; /* Reduced padding-bottom */
+    }
+
+    .twenty_two h5 {
+        font-size: 12px; /* Further reduced font size for sub-headers */
+        margin-top: 5px; /* Further reduced margin-top */
+    }
+
+    .twenty_three {
+        margin-top: 20px; /* Further reduced margin-top */
+    }
+
+    .twenty_three h4 {
+        font-size: 12px; /* Further reduced font size for headers */
+    }
+
+    .twenty_three h2 {
+        font-size: 12px; /* Further reduced font size for headers */
+    }
+}

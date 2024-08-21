@@ -1,0 +1,62 @@
+.ten {
+    text-align: center;
+}
+
+.ten img{
+    width: 10%;
+}
+
+.ten h2{
+    font-size: 48px;
+    font-weight: 800;
+    font-family: "Open Sans", sans-serif;
+    color: #2C2643;
+}
+
+
+.ten p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Paprika", system-ui;
+    color: #6C7D93;
+    padding-bottom: 60px;
+}
+.eleven{
+    padding: 10px 0px;
+    transform: scale(1);
+    transition: .5s;
+}
+
+.eleven:hover{
+    transform: scale(.9);
+}
+    
+.eleven img{
+    width: 100%;
+    height: 500px;
+}
+
+
+@media (max-width: 320px) {
+    .ten h2 {
+        font-size: 22px; /* Further reduced font size for headers */
+    }
+    .ten img{
+        width: 30%;
+    }
+    
+
+    .ten p {
+        font-size: 12px; /* Further reduced font size for paragraphs */
+        padding-bottom: 10px; /* Further reduced padding */
+    }
+
+    .eleven {
+        padding: 5px 0; /* Further reduced padding */
+    }
+
+    .eleven img {
+        height: 400px; /* Ensure the image scales correctly */
+        max-height: 400px; /* Limit height to fit smaller screens */
+    }
+}

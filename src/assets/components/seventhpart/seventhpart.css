@@ -1,0 +1,199 @@
+#seventhth{
+    background-color: #EDF3F7;
+    padding: 60px 0px;
+}
+
+.fiveteen{
+    text-align: center;
+}
+
+.fiveteen img{
+    width: 10%;
+}
+
+.fiveteen h4{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #FD5F36;
+    margin-top: 10px;
+}
+
+.fiveteen h2{
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #29313D;
+}
+
+
+.sixteen{
+    background-color: #FFD7C8;
+    padding: 40px 40px;
+    margin-top: 60px;
+    transition: .5s;
+    transform: scale(1);
+    -webkit-box-shadow: -1px -1px 11px 5px rgba(0,0,0,0.58);
+-moz-box-shadow: -1px -1px 11px 5px rgba(0,0,0,0.58);
+box-shadow: -1px -1px 11px 5px rgba(0,0,0,0.58);
+}
+
+.sixteen:hover{
+    background-color: #FD5F36;
+    transform: scale(1.1);
+}
+
+
+.sixteen h4{
+    font-size: 36px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #29313D;
+}
+
+.sixteen p{
+    font-size: 17px;
+    font-family: "Paprika", system-ui;
+    color: #6C7D93;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.sixteen h2{
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #29313D;
+}
+
+.sixteen button{
+    padding: 10px 30px;
+    background-color: #FD5F36;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 18px;
+    border: none;
+    transition: .5s;
+    transform: scale(1);
+}
+
+.sixteen button:hover{
+    background-color: #8454F5;
+    border: yellow;
+    transform: scale(1.1);
+}
+
+.sixteen h5{
+    font-size: 20px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    color: #29313D;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 320px) {
+    #seventhth {
+        background-color: #EDF3F7;
+        padding: 60px 10px; /* Reduced padding for smaller screens */
+    }
+    
+    .fiveteen {
+        text-align: center;
+    }
+    
+    .fiveteen img {
+        width: 30%; /* Adjusted width for images */
+        max-width: 150px; /* Ensure images are not too large */
+    }
+    
+    .fiveteen h4 {
+        font-size: 16px; /* Smaller font size for headers */
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        color: #FD5F36;
+        margin-top: 5px; /* Reduced margin-top */
+    }
+    
+    .fiveteen h2 {
+        font-size: 24px; /* Smaller font size for headers */
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        color: #29313D;
+    }
+    
+    .sixteen {
+        background-color: #FFD7C8;
+        padding: 20px 10px; /* Reduced padding for smaller screens */
+        margin-top: 30px; /* Reduced margin-top */
+        transition: .5s;
+        transform: scale(1);
+        -webkit-box-shadow: -1px -1px 8px 3px rgba(0,0,0,0.4);
+        -moz-box-shadow: -1px -1px 8px 3px rgba(0,0,0,0.4);
+        box-shadow: -1px -1px 8px 3px rgba(0,0,0,0.4);
+    }
+    
+    .sixteen:hover {
+        background-color: #FD5F36;
+        transform: scale(1.05); /* Adjusted scale for hover effect */
+    }
+    
+    .sixteen h4 {
+        font-size: 24px; /* Smaller font size for headers */
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        color: #29313D;
+    }
+    
+    .sixteen p {
+        font-size: 14px; /* Smaller font size for paragraphs */
+        font-family: "Paprika", system-ui;
+        color: #6C7D93;
+        font-weight: 400;
+        margin-top: 10px; /* Reduced margin-top */
+    }
+    
+    .sixteen h2 {
+        font-size: 28px; /* Smaller font size for headers */
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        color: #29313D;
+    }
+    
+    .sixteen button {
+        padding: 8px 20px; /* Reduced padding for smaller screens */
+        background-color: #FD5F36;
+        color: #FFFFFF;
+        font-size: 14px; /* Smaller font size for buttons */
+        font-family: "Nunito", sans-serif;
+        font-weight: 600;
+        margin-top: 20px; /* Reduced margin-top */
+        margin-bottom: 10px; /* Reduced margin-bottom */
+        border-radius: 12px; /* Reduced border-radius */
+        border: none;
+        transition: .5s;
+        transform: scale(1);
+    }
+    
+    .sixteen button:hover {
+        background-color: #8454F5;
+        border: none; /* Removed border */
+        transform: scale(1.05); /* Adjusted scale on hover */
+    }
+    
+    .sixteen h5 {
+        font-size: 16px; /* Smaller font size for headers */
+        font-family: "Nunito", sans-serif;
+        font-weight: 400;
+        color: #29313D;
+        margin-top: 10px; /* Reduced margin-top */
+    }
+    
+}
+
+
+

@@ -1,0 +1,121 @@
+#sixth{
+    background-color: #FEF8E4;
+    padding: 60px 0px;
+    margin-top: 120px;
+}
+
+.twelev{
+    text-align: center;
+}
+
+.twelev img{
+    width: 10%;
+}
+
+.twelev h2{
+    font-size: 48px;
+    font-weight: 800;
+    font-family: "Open Sans", sans-serif;
+    color: #2C2643;
+}
+
+.twelev p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Paprika", system-ui;
+    color: #6C7D93;
+}
+
+.therteen{
+    margin-top: 100px;
+    background-color: wheat;
+    padding: 20px 20px;
+    border-radius: 20px;
+    transform: scale(1);
+    transition: .5s;
+}
+
+.therteen:hover{
+    background-color: #FF7628;
+    transform: scale(1.1);
+}
+
+.therteen h4{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    color: #2C2643;
+}
+.therteen h3{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    color: #2C2643;
+}
+
+.therteen p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Paprika", system-ui;
+    color: #6C7D93;
+    margin-top: 10px;
+    padding-right: 70px;
+}
+
+.fourteen img{
+    width: 100%;
+    margin-top: 40px;
+    transform: scale(1);
+    transition: .5s;
+}
+
+.fourteen img:hover{
+    transform: scale(1.1);
+}
+
+
+@media (max-width: 320px) {
+    #sixth {
+        padding: 20px 5px; /* Further reduced padding */
+        margin-top: 30px; /* Further reduced margin-top */
+    }
+
+    .twelev img{
+        width: 30%;
+    }
+
+    .twelev h2 {
+        font-size: 22px; /* Further reduced font size for headers */
+        margin-top: 10px;
+    }
+
+    .twelev p {
+        font-size: 12px; /* Further reduced font size for paragraphs */
+        margin: 0 5px; /* Further reduced margin */
+    }
+
+    .therteen {
+        margin-top: 15px; /* Further reduced margin-top */
+        padding: 5px 5px; /* Further reduced padding */
+        border-radius: 8px; /* Further reduced border-radius */
+    }
+
+    .therteen h4 {
+        font-size: 12px; /* Further reduced font size for sub-headers */
+    }
+
+    .therteen h3 {
+        font-size: 18px; /* Further reduced font size for main headers */
+    }
+
+    .therteen p {
+        font-size: 10px; /* Further reduced font size for paragraphs */
+        margin-top: 5px; /* Further reduced margin-top */
+        padding-right: 20px; /* Further reduced padding-right */
+    }
+
+    .fourteen img {
+        margin-top: 10px; /* Further reduced margin-top */
+        height: auto; /* Maintain aspect ratio */
+    }
+}

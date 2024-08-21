@@ -1,0 +1,70 @@
+#second{
+    padding: 60px 0px;
+}
+
+.three img{
+    width: 100%;
+    margin-top: 40px;
+    transform: scale(1);
+    transition: .5s;
+}
+
+.three img:hover{
+    transform: scale(1.2);
+}
+.four img{
+    width: 20%;
+}
+.four h2{
+    font-size: 48px;
+    font-weight: 800;
+    font-family: "Open Sans", sans-serif;
+    color: #202427;
+    margin-top: 10px;
+}
+
+.four p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Paprika", system-ui;
+    color: #6C7D93;
+    margin-top: 20px;
+}
+
+.five img{
+    margin-top: 30px;
+}
+
+
+@media (max-width: 320px) {
+    #second {
+        padding: 20px 5px; /* Further reduced padding */
+    }
+
+    .three img {
+        margin-top: 10px; /* Further reduced margin-top */
+    }
+
+    .three img:hover {
+        transform: scale(1.05); /* Further reduced scale on hover */
+    }
+    .four img{
+        width: 30%;
+        margin-top: 20px;
+    }
+
+    .four h2 {
+        font-size: 24px; /* Further reduced font size for headers */
+        margin-top: 10px; /* Further reduced margin-top */
+    }
+
+    .four p {
+        font-size: 12px; /* Further reduced font size for paragraphs */
+        margin-top: 5px; /* Further reduced margin-top */
+    }
+
+    .five img {
+        width: 100%;
+        margin-top: 10px; /* Further reduced margin-top */
+    }
+}

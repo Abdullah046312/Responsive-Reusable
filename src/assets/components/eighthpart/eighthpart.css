@@ -1,0 +1,182 @@
+#eighth{
+    background-color: #FEF8E4;
+    
+}
+
+.logo{
+    text-align: center;
+    padding: 60px 0px;
+}
+.logo img{
+    width: 10%;
+}
+
+.logo h2{
+    font-size: 64px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    color: #5F5450;
+}
+.seventeen img{
+    width: 100%;
+    transform: scale(.9);
+    transition: .4s;
+   
+}
+
+.seventeen img:hover{
+    transform: scale(1);
+
+}
+
+.eightteen{
+    padding-left: 30px;
+}
+.eightteen h4{
+    font-size: 64px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    color: #5F5450;
+}
+
+.eightteen h3{
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #3D3430;
+}
+
+.eightteen p{
+    font-size: 18px;
+    font-family: "Paprika", system-ui;
+    color: #6C7D93;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.nineteen{
+    padding: 40px 0px;
+}
+.nineteen h4{
+    font-size: 64px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    color: #5F5450;
+}
+
+.nineteen h3{
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #3D3430;
+}
+
+.nineteen p{
+    font-size: 18px;
+    font-family: "Paprika", system-ui;
+    color: #6C7D93;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.twenty{
+    padding: 40px 30px;
+}
+.twenty h4{
+    font-size: 64px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    color: #5F5450;
+}
+
+.twenty h3{
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #3D3430;
+}
+
+.twenty p{
+    font-size: 18px;
+    font-family: "Paprika", system-ui;
+    color: #6C7D93;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+
+@media (max-width: 320px) {
+    #eighth {
+        padding: 20px 5px; /* Further reduced padding */
+    }
+
+    .logo {
+        padding: 20px 5px; /* Further reduced padding */
+    }
+    .logo img{
+        width: 30%;
+    }
+
+    .logo h2 {
+        font-size: 22px; /* Further reduced font size for headers */
+    }
+
+    .seventeen img {
+        transform: scale(0.85); /* Further reduced scale for smaller screens */
+    }
+
+    .seventeen img:hover {
+        transform: scale(1.05); /* Adjusted hover scale */
+    }
+
+    .eightteen {
+        padding-left: 5px; /* Further reduced padding-left */
+    }
+
+    .eightteen h4 {
+        font-size: 24px; /* Further reduced font size for headers */
+    }
+
+    .eightteen h3 {
+        font-size: 14px; /* Further reduced font size for sub-headers */
+    }
+
+    .eightteen p {
+        font-size: 12px; /* Further reduced font size for paragraphs */
+        margin-top: 3px; /* Further reduced margin-top */
+    }
+
+    .nineteen {
+        padding: 10px 5px; /* Further reduced padding */
+    }
+
+    .nineteen h4 {
+        font-size: 24px; /* Further reduced font size for headers */
+    }
+
+    .nineteen h3 {
+        font-size: 14px; /* Further reduced font size for sub-headers */
+    }
+
+    .nineteen p {
+        font-size: 12px; /* Further reduced font size for paragraphs */
+        margin-top: 3px; /* Further reduced margin-top */
+    }
+
+    .twenty {
+        padding: 10px 5px; /* Further reduced padding */
+    }
+
+    .twenty h4 {
+        font-size: 24px; /* Further reduced font size for headers */
+    }
+
+    .twenty h3 {
+        font-size: 14px; /* Further reduced font size for sub-headers */
+    }
+
+    .twenty p {
+        font-size: 12px; /* Further reduced font size for paragraphs */
+        margin-top: 3px; /* Further reduced margin-top */
+    }
+}
+
+
